@@ -1,5 +1,4 @@
 #include <iostream>
-#include <iomanip>
 #include <stdexcept>
 
 using namespace std;
@@ -49,7 +48,6 @@ int main() {
 
     try {
         jako = retDiv(a, b);
-        cout << fixed << setprecision(2);
         cout << a << "/" << b << " = " << jako << endl;
     } catch (runtime_error& e) {
         cout << "Error: " << e.what() << endl;
