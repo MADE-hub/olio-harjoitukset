@@ -40,7 +40,6 @@ int main() {
     calcSum(a, b);
     calcDiv(a, b);
 
-
     int summa = retSum(a, b);
     cout << "Palautettu summa: " << summa << endl;
 
