@@ -5,12 +5,12 @@ using namespace std;
 
 int main()
 {
-    // Osa 1: Chef
+    // Osa 1
     Chef chef("Gordon Ramsay");
     chef.makeSalad();
     chef.makeSoup();
 
-    // Osa 2: ItalianChef
+    // Osa 2
     ItalianChef italianChef("Anthony Bourdain");
     italianChef.makeSalad();
     italianChef.makeSoup();
